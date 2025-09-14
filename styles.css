@@ -1,0 +1,94 @@
+.carousel-item img {
+  max-height: 80vh;   /* limit to 70% of viewport height */
+  object-fit: cover;  /* crop image if too tall */
+}
+
+/* Navbar Background */
+.navbar {
+  background-color: #800000 !important; /* Deep Monastery Maroon */
+  border-bottom: 3px solid #FFD700;     /* Golden Accent */
+}
+
+/* Brand Styling */
+.navbar-brand {
+  color: #FFD700 !important;  /* Golden Yellow */
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+/* Nav Links */
+.navbar-nav .nav-link {
+  color: #FFD700 !important;  /* Golden Yellow links */
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffffff !important; /* White on hover/active */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #800000;  /* Match Navbar Maroon */
+  border: 1px solid #FFD700; /* Golden Border */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #FFD700; /* Golden Text */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #FFD700;
+  color: #800000; /* Inverted on hover */
+}
+
+
+.hero-section {
+  background-color: #f9f9f9;   /* very light grey */
+  color: #333;                /* dark grey text for readability */
+  padding: 3rem 2rem;
+}
+
+/* Headings */
+.hero-section h1 {
+  color: #444; 
+  font-family: 'Merriweather', serif; /* elegant but calm */
+}
+
+/* Paragraph */
+.hero-section p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Button */
+.hero-section .btn-primary {
+  background-color: #f4c542;   /* soft golden yellow */
+  border-color: #f4c542;
+  color: #333;
+  font-weight: 600;
+}
+
+.hero-section .btn-primary:hover {
+  background-color: #e0b935;   /* slightly darker gold */
+  border-color: #e0b935;
+  color: white;
+}
+
+/* Image */
+.hero-section img {
+  border: 3px solid #f4c542;   /* subtle golden frame */
+  border-radius: 6px;          /* soft curve */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* light shadow */
+}
+
+.hero-section .col-lg-6 {
+  padding-left: 3rem; /* adjust 1–4rem */
+}
+
+
+
